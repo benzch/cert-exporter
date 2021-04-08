@@ -18,6 +18,9 @@ certManagerDeployment:
     nameOverride: ""
     fullnameOverride: ""
 
+    # Annotations to add to the deployment
+    annotations: {}
+
     podSecurityContext: {}
     # fsGroup: 2000
 
